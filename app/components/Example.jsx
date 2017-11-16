@@ -11,9 +11,17 @@ var React = require('react');
 var Example = (props) =>{
     return (
         <div>
-            <h3>Example Component !</h3>
-            <p> Welcome to React </p>
-            </div>
+            <h1 className="text-center">Example Component !</h1>
+            <p> Here are a few exapmle locations to try : </p>
+            <ol>
+                <li>
+                    <link to='/?location=London'>London UK</link>
+                </li>
+                <li>
+                    <link to='/?location=Rio'>Rio Brazil</link>
+                </li>
+            </ol>
+        </div>
     )
 };
 
