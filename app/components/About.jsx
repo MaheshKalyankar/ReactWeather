@@ -2,7 +2,15 @@ var React = require('react');
 
 var About = (props) => {
     return (
-        <h3>About Component</h3>
+        <div>
+                <h1 className="text-center">About!</h1>
+                <p>This is a paragraph</p>
+                <ul>
+                    <li>
+                        <a href="https://www.google.com"> Google</a> - Browse here
+                    </li>
+                </ul>
+        </div>
     )
 };
 
